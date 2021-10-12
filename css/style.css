@@ -15,6 +15,7 @@ header{
   padding: 0px 7px;
   border: 1px solid grey;
   border-radius: 2px;
+  cursor: pointer;
 }
 .fl_hamburger-menu i{
   color: grey;
@@ -22,6 +23,8 @@ header{
 .fl-jumbotron{
   margin-top: 60px;
   width: 100%;
+}
+.fl_bg-green{
   background-color: #1abc9c;
 }
 .fl-jumbotron div img{
@@ -36,6 +39,32 @@ header{
   border-radius: 10px;
 }
 
+/* ABOUT */
+.fl_container-60{
+  width: 65%;
+  margin: 0 auto;
+}
+.fl_bnt-section-about{
+  width: 120px;
+}
+
+/* CONTACT */
+.fl_section-contact div div input{
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.fl_section-contact div div textarea{
+  border: none;
+  border-bottom: 1px solid grey;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+  }
+.fl_bnt-green{
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+}
 
 
 footer{
