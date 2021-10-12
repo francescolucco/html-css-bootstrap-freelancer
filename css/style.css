@@ -24,12 +24,10 @@ header{
   margin-top: 60px;
   width: 100%;
 }
-.fl_bg-green{
-  background-color: #1abc9c;
-}
 .fl-jumbotron div img{
   width: 150px;
 }
+
 /* PORTFOLIO */
 .section-portfolio div div ._box{
   margin: 7px;
@@ -66,32 +64,38 @@ header{
   border-color: #1abc9c;
 }
 
-
-footer{
-  background-color: midnightblue;
+/* FOOTER */
+.fl_footer-top{
+  background-color: #3a546d;
 }
-
-/* Elements */
-
-._box{
-  /* background-color: lightseagreen;
-  border: 1px solid rgb(255, 255, 255);
-  min-height: 50px;
-  color: white;
-  text-align: center;
-  line-height: 50px; */
-}
-._box._box-r{
-  text-align:left;
-}
-._box-nesting{
-  padding: 10px;
-  color: white;
+.icon-container a{
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
   text-align: center;
   border: 1px solid white;
-  background-color: rgb(46, 230, 22);
-  min-height: 30px;
+  border-radius: 50%;
+  margin: 3px;
+  text-decoration: none;
+  color: white;
 }
+.fl_footer-bottom{
+  background-color: #2c3e50
+  ;
+}
+.fl_footer-bottom span{
+  font-size: 12px;
+}
+
+.fl_bg-green{
+  background-color: #1abc9c;
+}
+.fl_cl-green{
+  color: #1abc9c;
+}
+
+
 
 
 
