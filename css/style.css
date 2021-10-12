@@ -24,8 +24,12 @@ header{
   margin-top: 60px;
   width: 100%;
 }
-.fl-jumbotron div img{
-  width: 215px;
+.fl-jumbotron .container-fluid{
+  width: 100%;
+}
+.container-fluid img{
+  max-width: 215px;
+  width: 80%;
 }
 
 /* PORTFOLIO */
