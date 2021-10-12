@@ -1,17 +1,43 @@
-/* Le altezze all'header, al jumbotron,  poi le tolgo. Ache i margini tra le parti */
+/* HEADER */
 header{
-  background-color: rgb(4, 4, 44);
-  height: 100px;
+  background-color: #2C3D50;
+  color: white;
+  height: 60px;
 }
-.container-lg{
-  background-color: indianred;
+.fl_voice-menu{
+  font-size: 11px;
+  color: white;
+  cursor: pointer;
 }
-._jumbotron{
+
+/* JUMBOTRON */
+.fl_hamburger-menu{
+  padding: 0px 7px;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+.fl_hamburger-menu i{
+  color: grey;
+}
+.fl-jumbotron{
+  margin-top: 60px;
   width: 100%;
-  height: 300px;
-  background-color: lightgreen;
-  padding-top: 50px;
+  background-color: #1abc9c;
 }
+.fl-jumbotron div img{
+  width: 150px;
+}
+/* PORTFOLIO */
+.section-portfolio div div ._box{
+  margin: 7px;
+}
+.section-portfolio div div ._box img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
 footer{
   background-color: midnightblue;
 }
@@ -19,11 +45,12 @@ footer{
 /* Elements */
 
 ._box{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen;
   border: 1px solid rgb(255, 255, 255);
   min-height: 50px;
   color: white;
   text-align: center;
+  line-height: 50px; */
 }
 ._box._box-r{
   text-align:left;
