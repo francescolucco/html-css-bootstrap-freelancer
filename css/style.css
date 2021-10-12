@@ -25,17 +25,42 @@ header{
   width: 100%;
 }
 .fl-jumbotron div img{
-  width: 150px;
+  width: 215px;
 }
 
 /* PORTFOLIO */
-.section-portfolio div div ._box{
+.section-portfolio div div ._box-img {
   margin: 7px;
 }
-.section-portfolio div div ._box img{
+.section-portfolio div div ._box-img  img{
   width: 100%;
   border-radius: 10px;
 }
+.fl_layover{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgba(29, 170, 128, 0.705);
+}
+._box-img:hover .fl_layover{
+  display: block;
+}
+.fl_containter-fa-plus{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-plus{
+  font-size: 80px;
+  color: white;
+}
+
 
 /* ABOUT */
 .fl_container-60{
@@ -88,11 +113,41 @@ header{
   font-size: 12px;
 }
 
+/* ELEMENTS */
 .fl_bg-green{
   background-color: #1abc9c;
 }
 .fl_cl-green{
   color: #1abc9c;
+}
+.fl_line{
+  height: 3px;
+  min-width: 80px;
+  width: 20%;
+  max-width: 170px;
+}
+.fl_line-black{
+  background-color: black;
+}
+.fl_line-white{
+  background-color: white;
+}
+.fl_star{
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  margin: 5px 20px 5px 20px;
+}
+.fl_star-black{
+  color: black;
+}
+.fl_star-white{
+  color: white;
+}
+.fl_star i{
+  font-size: 25px;
 }
 
 
